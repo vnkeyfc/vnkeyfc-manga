@@ -304,7 +304,7 @@ const getImagePath = (imageName) => {
 const handleImageError = (e, index) => {
   console.error('Image failed to load:', e.target.src, 'at index:', index)
   failedImages.value.add(index)
-  e.target.src = '/placeholder-manga-page.jpg' // Fallback image
+  e.target.src = '/images/help.png' // Fallback image
   
   // Show error if more than a third of images fail
   if (failedImages.value.size > chapterImages.value.length / 3) {
