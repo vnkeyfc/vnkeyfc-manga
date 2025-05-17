@@ -1,0 +1,40 @@
+{
+  "manga": [
+    {
+      "id": "non-kfc-charlotte",
+      "title": "[Non-KFC] Charlotte",
+      "cover": "/manga/[Non-KFC] Charlotte/cover.jpg",
+      "description": "Follow Monkey D. Luffy and his pirate crew in their search for the ultimate treasure, the One Piece.",
+      "author": "Eiichiro Oda",
+      "artist": "Eiichiro Oda",
+      "status": "ongoing",
+      "genres": ["Action", "Adventure", "Fantasy"],
+      "noted": "This is a fan-made manga based on the original work.",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "non-kfc-rewrite-side-r-ch-4-6",
+      "title": "[Non-KFC] Rewrite Side-R (ch 4-6)",
+      "cover": "/manga/[Non-KFC] Rewrite Side-R (ch 4-6)/test.jpg",
+      "description": "A side story of the visual novel Rewrite, focusing on the characters and events that occur in the Side-R route.",
+      "author": "Key",
+      "artist": "Eiichiro Oda",
+      "status": "completed",
+      "genres": ["Romance", "Drama", "Fantasy"],
+      "noted": "This is a fan-made manga based on the original work.",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "non-kfc-rewrite-side-r-ch-4-a",
+      "title": "[Non-KFC] Rewrite Side-R (ch 4-6)",
+      "cover": null,
+      "description": null,
+      "artist": null,
+      "author": null,
+      "status": "Hoàn thành",
+      "genres": null,
+      "noted": null,
+      "lastUpdated": null
+    }
+  ]
+} 
