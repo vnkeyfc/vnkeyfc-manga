@@ -1,0 +1,30 @@
+{
+  "id": "clannad---anthology-manga",
+  "title": "CLANNAD - Anthology Manga",
+  "cover": "cover.jpg",
+  "chapters": [
+    {
+      "id": "done-1",
+      "title": "Done (1)",
+      "chapterImages": [
+        "19 (1).jpg",
+        "20 (1).jpg",
+        "21 copy.jpg",
+        "22 copy.jpg",
+        "23 copy.jpg",
+        "24 (1).jpg",
+        "25 (1).jpg",
+        "26.jpg",
+        "27.jpg",
+        "28.jpg",
+        "29.jpg",
+        "30.jpg",
+        "31.jpg",
+        "32.jpg",
+        "33.jpg",
+        "34.jpg",
+        "54.jpg"
+      ]
+    }
+  ]
+}

@@ -68,7 +68,7 @@
             <Badge 
               v-if="showPageNumbers" 
               variant="outline"
-              class="absolute bottom-1 right-1 backdrop-blur-sm"
+              class="absolute bottom-1 right-1 bg-white text-black dark:bg-gray-800 dark:text-white"
             >
               {{ index + 1 }} / {{ chapterImages.length }}
             </Badge>

@@ -1,0 +1,216 @@
+{
+  "id": "prima-doll-youkoso",
+  "title": "Prima Doll Youkoso",
+  "cover": "cover.jpg",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Chapter 1",
+      "chapterImages": [
+        "00.jpg",
+        "01.jpg",
+        "02.jpg",
+        "03.jpg",
+        "04.jpg",
+        "05.jpg",
+        "06.jpg",
+        "07.jpg",
+        "08.jpg",
+        "09.jpg",
+        "10.jpg",
+        "11.jpg",
+        "12.jpg",
+        "13.jpg"
+      ]
+    },
+    {
+      "id": "chapter-2",
+      "title": "Chapter 2",
+      "chapterImages": [
+        "00.jpg",
+        "01.jpg",
+        "02.jpg",
+        "03.jpg",
+        "04.jpg",
+        "05.jpg",
+        "06.jpg",
+        "07.jpg",
+        "08.jpg",
+        "09.jpg",
+        "10.jpg",
+        "11.jpg",
+        "12.jpg",
+        "13.jpg",
+        "14.jpg",
+        "15.jpg",
+        "16.jpg",
+        "17.jpg",
+        "18.jpg",
+        "19.jpg"
+      ]
+    },
+    {
+      "id": "chapter-3",
+      "title": "Chapter 3",
+      "chapterImages": [
+        "00.jpg",
+        "01.jpg",
+        "02.jpg",
+        "03.jpg",
+        "04.jpg",
+        "05.jpg",
+        "06.jpg",
+        "07.jpg",
+        "08.jpg",
+        "09.jpg",
+        "10.jpg",
+        "11.jpg",
+        "12.jpg"
+      ]
+    },
+    {
+      "id": "chapter-4",
+      "title": "Chapter 4",
+      "chapterImages": [
+        "00.jpg",
+        "01.jpg",
+        "02.jpg",
+        "03.jpg",
+        "04.jpg",
+        "05.jpg",
+        "06.jpg",
+        "07.jpg",
+        "08.jpg",
+        "09.jpg",
+        "10.jpg",
+        "11.jpg",
+        "12.jpg",
+        "13.jpg",
+        "14.jpg",
+        "15.jpg"
+      ]
+    },
+    {
+      "id": "chapter-5",
+      "title": "Chapter 5",
+      "chapterImages": [
+        "00.jpg",
+        "01.jpg",
+        "02.jpg",
+        "03.jpg",
+        "04.jpg",
+        "05.jpg",
+        "06.jpg",
+        "07.jpg",
+        "08.jpg",
+        "09.jpg",
+        "10.jpg",
+        "11.jpg",
+        "12.jpg",
+        "13.jpg",
+        "14.jpg",
+        "15.jpg"
+      ]
+    },
+    {
+      "id": "chapter-6",
+      "title": "Chapter 6",
+      "chapterImages": [
+        "00.jpg",
+        "01.jpg",
+        "02.jpg",
+        "03.jpg",
+        "04.jpg",
+        "05.jpg",
+        "06.jpg",
+        "07.jpg",
+        "08.jpg",
+        "09.jpg",
+        "10.jpg",
+        "11.jpg",
+        "12.jpg",
+        "13.jpg"
+      ]
+    },
+    {
+      "id": "chapter-7",
+      "title": "Chapter 7",
+      "chapterImages": [
+        "Trans - 01.jpg",
+        "Trans - 02.jpg",
+        "Trans - 03.jpg",
+        "Trans - 04.jpg",
+        "Trans - 05.jpg",
+        "Trans - 06.jpg",
+        "Trans - 07.jpg",
+        "Trans - 08.jpg",
+        "Trans - 09.jpg",
+        "Trans - 10.jpg",
+        "Trans - 11.jpg",
+        "Trans - 12.jpg",
+        "Trans - 13.jpg",
+        "Trans - 14.jpg"
+      ]
+    },
+    {
+      "id": "chapter-8",
+      "title": "Chapter 8",
+      "chapterImages": [
+        "Trans - 01.jpg",
+        "Trans - 02.jpg",
+        "Trans - 03.jpg",
+        "Trans - 04.jpg",
+        "Trans - 05.jpg",
+        "Trans - 06.jpg",
+        "Trans - 07.jpg",
+        "Trans - 08.jpg",
+        "Trans - 09.jpg",
+        "Trans - 10.jpg",
+        "Trans - 11.jpg",
+        "Trans - 12.jpg",
+        "Trans - 13.jpg",
+        "Trans - 14.jpg"
+      ]
+    },
+    {
+      "id": "chapter-9",
+      "title": "Chapter 9",
+      "chapterImages": [
+        "Trans - 001.jpg",
+        "Trans - 002.jpg",
+        "Trans - 003.jpg",
+        "Trans - 004.jpg",
+        "Trans - 005.jpg",
+        "Trans - 006.jpg",
+        "Trans - 007.jpg",
+        "Trans - 008.jpg",
+        "Trans - 009.jpg",
+        "Trans - 010.jpg",
+        "Trans - 011.jpg",
+        "Trans - 012.jpg",
+        "Trans - 013.jpg",
+        "Trans - 014.jpg"
+      ]
+    },
+    {
+      "id": "chapter-10",
+      "title": "Chapter 10",
+      "chapterImages": [
+        "Trans - 001.jpg",
+        "Trans - 002.jpg",
+        "Trans - 003.jpg",
+        "Trans - 004.jpg",
+        "Trans - 005.jpg",
+        "Trans - 006.jpg",
+        "Trans - 007.jpg",
+        "Trans - 008.jpg",
+        "Trans - 009.jpg",
+        "Trans - 010.jpg",
+        "Trans - 011.jpg",
+        "Trans - 012.jpg",
+        "Trans - 013.jpg",
+        "Trans - 014.jpg"
+      ]
+    }
+  ]
+}

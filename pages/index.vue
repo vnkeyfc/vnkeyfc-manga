@@ -20,7 +20,7 @@
     </div>
 
     <!-- Manga Grid -->
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6 container mx-auto">
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6 container max-w-5xl mx-auto">
       <NuxtLink
         v-for="manga in filteredManga"
         :key="manga.id"

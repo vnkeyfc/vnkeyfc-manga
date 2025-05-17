@@ -1,0 +1,43 @@
+{
+  "id": "little-busters-the-4-koma",
+  "title": "Little Busters! The 4-Koma",
+  "cover": "cover.jpg",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Chapter 1",
+      "chapterImages": [
+        "Little Buster- The 4-koma chap 1-001.jpg",
+        "Little Buster- The 4-koma chap 1-002.jpg",
+        "Little Buster- The 4-koma chap 1-003.jpg",
+        "Little Buster- The 4-koma chap 1-004.jpg",
+        "Little Buster- The 4-koma chap 1-005.jpg",
+        "Little Buster- The 4-koma chap 1-006.jpg",
+        "Little Buster- The 4-koma chap 1-007.jpg",
+        "Little Buster- The 4-koma chap 1-008.jpg",
+        "Little Buster- The 4-koma chap 1-009.jpg",
+        "Little Buster- The 4-koma chap 1-010.jpg",
+        "Little Buster- The 4-koma chap 1-011.jpg",
+        "Little Buster- The 4-koma chap 1-012.jpg",
+        "Little Buster- The 4-koma chap 1-013.jpg",
+        "Little Buster- The 4-koma chap 1-014.jpg"
+      ]
+    },
+    {
+      "id": "chapter-2",
+      "title": "Chapter 2",
+      "chapterImages": [
+        "LB- 4-koma chap 2-00a.jpg",
+        "LB- 4-koma chap 2-00b.jpg",
+        "LB- 4-koma chap 2-001.jpg",
+        "LB- 4-koma chap 2-002.jpg",
+        "LB- 4-koma chap 2-003.jpg",
+        "LB- 4-koma chap 2-004.jpg",
+        "LB- 4-koma chap 2-005.jpg",
+        "LB- 4-koma chap 2-006.jpg",
+        "LB- 4-koma chap 2-007.jpg",
+        "LB- 4-koma chap 2-008.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "id": "kanonair-sky",
+  "title": "Kanon&AIR Sky",
+  "cover": "cover.jpg",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Chapter 1",
+      "chapterImages": [
+        "Kanon Air Chap 1 Vietnamese-001.jpg",
+        "Kanon Air Chap 1 Vietnamese-002.jpg",
+        "Kanon Air Chap 1 Vietnamese-003.jpg",
+        "Kanon Air Chap 1 Vietnamese-004.jpg",
+        "Kanon Air Chap 1 Vietnamese-005.jpg",
+        "Kanon Air Chap 1 Vietnamese-006.jpg",
+        "Kanon Air Chap 1 Vietnamese-007.jpg",
+        "Kanon Air Chap 1 Vietnamese-008.jpg",
+        "Kanon Air Chap 1 Vietnamese-009.jpg",
+        "Kanon Air Chap 1 Vietnamese-010.jpg",
+        "Kanon Air Chap 1 Vietnamese-011.jpg",
+        "Kanon Air Chap 1 Vietnamese-012.jpg",
+        "Kanon Air Chap 1 Vietnamese-013.jpg",
+        "Kanon Air Chap 1 Vietnamese-014.jpg",
+        "Kanon Air Chap 1 Vietnamese-015.jpg",
+        "Kanon Air Chap 1 Vietnamese-016.jpg",
+        "Kanon Air Chap 1 Vietnamese-017.jpg",
+        "Kanon Air Chap 1 Vietnamese-018.jpg",
+        "Kanon Air Chap 1 Vietnamese-019.jpg",
+        "Kanon Air Chap 1 Vietnamese-020.jpg",
+        "Kanon Air Chap 1 Vietnamese-021.jpg",
+        "Kanon Air Chap 1 Vietnamese-022.jpg",
+        "Kanon Air Chap 1 Vietnamese-023.jpg",
+        "Kanon Air Chap 1 Vietnamese-024.jpg",
+        "Kanon Air Chap 1 Vietnamese-025.jpg",
+        "Kanon Air Chap 1 Vietnamese-026.jpg",
+        "Kanon Air Chap 1 Vietnamese-027.jpg"
+      ]
+    },
+    {
+      "id": "chapter-2",
+      "title": "Chapter 2",
+      "chapterImages": [
+        "Chap 2 Viet-001.jpg",
+        "Chap 2 Viet-002.jpg",
+        "Chap 2 Viet-003.jpg",
+        "Chap 2 Viet-004.jpg",
+        "Chap 2 Viet-005.jpg",
+        "Chap 2 Viet-006.jpg",
+        "Chap 2 Viet-007.jpg",
+        "Chap 2 Viet-008.jpg",
+        "Chap 2 Viet-009.jpg",
+        "Chap 2 Viet-010.jpg",
+        "Chap 2 Viet-011.jpg",
+        "Chap 2 Viet-012.jpg",
+        "Chap 2 Viet-013.jpg",
+        "Chap 2 Viet-014.jpg",
+        "Chap 2 Viet-015.jpg",
+        "Chap 2 Viet-016.jpg",
+        "Chap 2 Viet-017.jpg"
+      ]
+    },
+    {
+      "id": "chapter-3",
+      "title": "Chapter 3",
+      "chapterImages": [
+        "Chap 3 Viet Revise-001.jpg",
+        "Chap 3 Viet Revise-002.jpg",
+        "Chap 3 Viet Revise-003.jpg",
+        "Chap 3 Viet Revise-004.jpg",
+        "Chap 3 Viet Revise-005.jpg",
+        "Chap 3 Viet Revise-006.jpg",
+        "Chap 3 Viet Revise-007.jpg",
+        "Chap 3 Viet Revise-008.jpg",
+        "Chap 3 Viet Revise-009.jpg",
+        "Chap 3 Viet Revise-010.jpg",
+        "Chap 3 Viet Revise-011.jpg"
+      ]
+    },
+    {
+      "id": "chapter-4",
+      "title": "Chapter 4",
+      "chapterImages": [
+        "Chap 4 Viet-001.jpg",
+        "Chap 4 Viet-002.jpg",
+        "Chap 4 Viet-003.jpg",
+        "Chap 4 Viet-004.jpg",
+        "Chap 4 Viet-005.jpg",
+        "Chap 4 Viet-006.jpg",
+        "Chap 4 Viet-007.jpg",
+        "Chap 4 Viet-008.jpg",
+        "Chap 4 Viet-009.jpg",
+        "Chap 4 Viet-010.jpg",
+        "Chap 4 Viet-011.jpg",
+        "Chap 4 Viet-012.jpg",
+        "Chap 4 Viet-013.jpg"
+      ]
+    },
+    {
+      "id": "chapter-5",
+      "title": "Chapter 5",
+      "chapterImages": [
+        "Chap 5 Viet-001.jpg",
+        "Chap 5 Viet-002.jpg",
+        "Chap 5 Viet-003.jpg",
+        "Chap 5 Viet-004.jpg",
+        "Chap 5 Viet-005.jpg",
+        "Chap 5 Viet-006.jpg",
+        "Chap 5 Viet-007.jpg",
+        "Chap 5 Viet-008.jpg",
+        "Chap 5 Viet-009.jpg",
+        "Chap 5 Viet-010.jpg",
+        "Chap 5 Viet-011.jpg",
+        "Chap 5 Viet-012.jpg"
+      ]
+    },
+    {
+      "id": "chapter-6",
+      "title": "Chapter 6",
+      "chapterImages": [
+        "Chap 6 Viet-001.jpg",
+        "Chap 6 Viet-002.jpg",
+        "Chap 6 Viet-003.jpg",
+        "Chap 6 Viet-004.jpg",
+        "Chap 6 Viet-005.jpg",
+        "Chap 6 Viet-006.jpg",
+        "Chap 6 Viet-007.jpg",
+        "Chap 6 Viet-008.jpg",
+        "Chap 6 Viet-010.jpg",
+        "Chap 6 Viet-011.jpg",
+        "Chap 6 Viet-012.jpg"
+      ]
+    },
+    {
+      "id": "chapter-7",
+      "title": "Chapter 7",
+      "chapterImages": [
+        "Chap 7 Viet-001.jpg",
+        "Chap 7 Viet-002.jpg",
+        "Chap 7 Viet-003.jpg",
+        "Chap 7 Viet-004.jpg",
+        "Chap 7 Viet-005.jpg",
+        "Chap 7 Viet-006.jpg",
+        "Chap 7 Viet-007.jpg",
+        "Chap 7 Viet-008.jpg",
+        "Chap 7 Viet-009.jpg",
+        "Chap 7 Viet-010.jpg",
+        "Chap 7 Viet-011.jpg",
+        "Chap 7 Viet-012.jpg",
+        "Chap 7 Viet-013.jpg",
+        "Chap 7 Viet-014.jpg",
+        "Chap 7 Viet-015.jpg"
+      ]
+    },
+    {
+      "id": "chapter-8",
+      "title": "Chapter 8",
+      "chapterImages": [
+        "Kanon Air Sky 8-000.jpg",
+        "Kanon Air Sky 8-001.png",
+        "Kanon Air Sky 8-002.png",
+        "Kanon Air Sky 8-003.png",
+        "Kanon Air Sky 8-004.png",
+        "Kanon Air Sky 8-005.png",
+        "Kanon Air Sky 8-006.png",
+        "Kanon Air Sky 8-007.png",
+        "Kanon Air Sky 8-008.png",
+        "Kanon Air Sky 8-009.png",
+        "Kanon Air Sky 8-010.png",
+        "Kanon Air Sky 8-011.png",
+        "Kanon Air Sky 8-012.png"
+      ]
+    },
+    {
+      "id": "chapter-9",
+      "title": "Chapter 9",
+      "chapterImages": [
+        "KAS Chap 9 Vie-001.jpg",
+        "KAS Chap 9 Vie-002.jpg",
+        "KAS Chap 9 Vie-003.jpg",
+        "KAS Chap 9 Vie-004.jpg",
+        "KAS Chap 9 Vie-005.jpg",
+        "KAS Chap 9 Vie-006.jpg",
+        "KAS Chap 9 Vie-007.jpg",
+        "KAS Chap 9 Vie-008.jpg",
+        "KAS Chap 9 Vie-009.jpg",
+        "KAS Chap 9 Vie-010.jpg",
+        "KAS Chap 9 Vie-011.jpg",
+        "KAS Chap 9 Vie-012.jpg",
+        "KAS Chap 9 Vie-013.jpg",
+        "KAS Chap 9 Vie-014.jpg",
+        "KAS Chap 9 Vie-015.jpg",
+        "KAS Chap 9 Vie-016.png"
+      ]
+    }
+  ]
+}

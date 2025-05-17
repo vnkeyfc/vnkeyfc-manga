@@ -23,6 +23,25 @@ function createSeoName(str) {
 }
 
 const root = path.join(__dirname, '../public/manga');
+const mangaJsonPath = path.join(__dirname, '../public/manga/manga.json');
+
+// Initialize or load the main manga.json file
+let globalMangaIndex = { manga: [] };
+if (fs.existsSync(mangaJsonPath)) {
+  try {
+    globalMangaIndex = JSON.parse(fs.readFileSync(mangaJsonPath, 'utf8'));
+  } catch (error) {
+    console.error(`Error reading manga.json: ${error.message}`);
+    // Initialize with empty array if file exists but is corrupted
+    globalMangaIndex = { manga: [] };
+  }
+} else {
+  // Create directory if it doesn't exist
+  const mangaDir = path.dirname(mangaJsonPath);
+  if (!fs.existsSync(mangaDir)) {
+    fs.mkdirSync(mangaDir, { recursive: true });
+  }
+}
 
 // Process each manga directory
 fs.readdirSync(root).forEach((comic) => {
@@ -70,9 +89,12 @@ fs.readdirSync(root).forEach((comic) => {
     return numA - numB;
   });
   
-  // Create the manga index.json
+  // Create the manga index.json for individual manga folder
+  const mangaId = createSeoName(comic);
+  const coverPath = coverImage ? `/manga/${comic}/${coverImage}` : null;
+  
   const mangaIndex = {
-    id: createSeoName(comic),
+    id: mangaId,
     title: comic,
     cover: coverImage,
     chapters: chapters
@@ -84,4 +106,39 @@ fs.readdirSync(root).forEach((comic) => {
   );
   
   console.log(`Generated index.json for ${comic}`);
+  
+  // Update the global manga.json file
+  const existingMangaIndex = globalMangaIndex.manga.findIndex(item => item.id === mangaId);
+  
+  if (existingMangaIndex !== -1) {
+    // Update existing manga entry
+    globalMangaIndex.manga[existingMangaIndex].title = comic;
+    globalMangaIndex.manga[existingMangaIndex].cover = coverPath;
+    // Preserve other fields that might have been set manually
+  } else {
+    // Add new manga entry with default values for other fields
+    globalMangaIndex.manga.push({
+      id: mangaId,
+      title: comic,
+      cover: coverPath,
+      description: null,
+      author: null,
+      artist: null,
+      status: null,
+      genres: [],
+      noted: null,
+      lastUpdated: new Date().toISOString().split('T')[0] // Format: YYYY-MM-DD
+    });
+  }
 });
+
+// Sort the manga list alphabetically by title
+globalMangaIndex.manga.sort((a, b) => a.title.localeCompare(b.title));
+
+// Save the updated manga.json file
+fs.writeFileSync(
+  mangaJsonPath,
+  JSON.stringify(globalMangaIndex, null, 2)
+);
+
+console.log(`Updated global manga.json with ${globalMangaIndex.manga.length} entries`);

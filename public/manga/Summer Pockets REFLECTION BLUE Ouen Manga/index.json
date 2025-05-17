@@ -1,0 +1,82 @@
+{
+  "id": "summer-pockets-reflection-blue-ouen-manga",
+  "title": "Summer Pockets REFLECTION BLUE Ouen Manga",
+  "cover": "cover.jpg",
+  "chapters": [
+    {
+      "id": "chapter-1-shizuku",
+      "title": "Chapter 1 Shizuku",
+      "chapterImages": [
+        "image-0002 (1).jpg",
+        "image-0003 (1).jpg",
+        "image-0004 (1).jpg",
+        "image-0005 (1).jpg",
+        "image-0006 (1).jpg",
+        "image-0007 (1).jpg",
+        "image-0008 (1).jpg",
+        "image-0009 (1).jpg",
+        "image-0010 (1).jpg"
+      ]
+    },
+    {
+      "id": "chapter-2-nomiki",
+      "title": "Chapter 2 Nomiki",
+      "chapterImages": [
+        "image-0002 (1).jpg",
+        "image-0003 (1).jpg",
+        "image-0004 (1).jpg",
+        "image-0005 (1).jpg",
+        "image-0006 (1).jpg",
+        "image-0007 (1).jpg",
+        "image-0008 (1).jpg",
+        "image-0009 (1).jpg",
+        "image-0010 (1).jpg"
+      ]
+    },
+    {
+      "id": "chapter-3-ao",
+      "title": "Chapter 3 Ao",
+      "chapterImages": [
+        "image-0002 (1).jpg",
+        "image-0003 (1).jpg",
+        "image-0004 (1).jpg",
+        "image-0005 (1).jpg",
+        "image-0006 (1).jpg",
+        "image-0007 (1).jpg",
+        "image-0008 (1).jpg",
+        "image-0009 (1).jpg",
+        "image-0010 (1).jpg"
+      ]
+    },
+    {
+      "id": "chapter-4-kamome",
+      "title": "Chapter 4 Kamome",
+      "chapterImages": [
+        "image-0002 (1).jpg",
+        "image-0003.jpg",
+        "image-0004.jpg",
+        "image-0005.jpg",
+        "image-0006.jpg",
+        "image-0007.jpg",
+        "image-0008.jpg",
+        "image-0009 (1).jpg",
+        "image-0010 (1).jpg"
+      ]
+    },
+    {
+      "id": "chapter-5-shiroha",
+      "title": "Chapter 5 Shiroha",
+      "chapterImages": [
+        "image-0002 (1).jpg",
+        "image-0003 (1).jpg",
+        "image-0004 (1).jpg",
+        "image-0005 (1).jpg",
+        "image-0006 (1).jpg",
+        "image-0007 (1).jpg",
+        "image-0008 (1).jpg",
+        "image-0009 (1).jpg",
+        "image-0010 (1).jpg"
+      ]
+    }
+  ]
+}
