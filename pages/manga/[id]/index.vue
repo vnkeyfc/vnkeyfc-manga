@@ -14,9 +14,14 @@
       <div class="flex flex-col md:flex-row gap-8 mb-12">
         <div class="w-full md:w-1/3">
           <div class="aspect-[2/3] bg-muted rounded-xl overflow-hidden shadow-lg transition-all hover:shadow-xl">
-            <img
+            <NuxtImg
               :src="manga?.cover || '/images/help.png'"
-              :alt="manga.title || 'Manga cover'"
+              :alt="manga?.title || 'Manga cover'"
+              format="webp"
+              :width="200"
+              :height="300"
+              placeholder
+              loading="lazy"
               class="w-full h-full object-cover"
               @error="handleImageError"
             />

@@ -29,9 +29,14 @@
       >
         <Card class="flex flex-col overflow-hidden border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 w-full !py-0 gap-1">
           <div class="aspect-[2/3] overflow-hidden">
-            <img
+            <NuxtImg
               :src="manga?.cover || '/images/help.png'"
               :alt="manga?.title || 'Manga cover'"
+              format="webp"
+              :width="200"
+              :height="300"
+              placeholder
+              loading="lazy"
               class="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
             />
           </div>

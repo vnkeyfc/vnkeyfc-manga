@@ -46,22 +46,25 @@
     </header>
 
     <!-- Reader Content -->
-    <main class="container mx-auto p-2 flex-1">
+    <main class="container mx-auto p-2 flex-1 flex items-center justify-center">
       <div v-if="loading" class="flex justify-center items-center py-20">
         <div class="flex flex-col items-center gap-2">
           <p class="text-muted-foreground">Đang tải chapter...</p>
         </div>
       </div>
       
-      <div v-else-if="chapterImages.length > 0" class="max-w-3xl mx-auto space-y-6">
+      <div v-else-if="chapterImages.length > 0" class="max-w-3xl mx-auto space-y-6 w-full">
         <!-- Vertical Reading Mode -->
-        <div v-if="readingMode === 'vertical'" class="space-y-2">
+        <div v-if="readingMode === 'vertical'" class="space-y-1">
           <div v-for="(image, index) in chapterImages" :key="index" class="relative">
-            <img
+            <NuxtImg
               :src="getImagePath(image)"
               :alt="`Trang ${index + 1} - ${manga?.title} - ${currentChapter.title}`"
-              class="w-full rounded-lg shadow-md dark:shadow-none border border-muted dark:border-gray-700"
+              format="webp"
+              placeholder
+              width="800"
               loading="lazy"
+              class="w-full shadow-md dark:shadow-none border border-muted dark:border-gray-700"
               @error="handleImageError($event, index)"
             />
 
@@ -77,10 +80,13 @@
         
         <!-- Paged Reading Mode -->
         <div v-else-if="readingMode === 'paged'" class="relative">
-          <img
+          <NuxtImg
             :src="getImagePath(chapterImages[currentPage])"
             :alt="`Trang ${currentPage + 1} - ${manga?.title} - ${currentChapter.title}`"
-            class="w-full rounded-lg shadow-md dark:shadow-none border border-muted dark:border-gray-700 mx-auto"
+            format="webp"
+            width="800"
+            placeholder
+            class="w-full   shadow-md dark:shadow-none border border-muted dark:border-gray-700 mx-auto"
             loading="eager"
             @error="handleImageError($event, currentPage)"
           />
@@ -296,7 +302,7 @@ const changeChapter = (chapterId) => {
 
 // Get image path for chapter images
 const getImagePath = (imageName) => {
-  if (!manga.value || !currentChapter.value) return ''
+  if (!manga.value || !currentChapter.value) return 'images/help.png'
   return `/manga/${manga.value.title}/${currentChapter.value.title}/${imageName}`
 }
 

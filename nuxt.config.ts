@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
-  modules: ['shadcn-nuxt', '@nuxtjs/color-mode', '@nuxt/icon'],
+  modules: ['shadcn-nuxt', '@nuxtjs/color-mode', '@nuxt/icon', '@nuxt/image'],
   shadcn: {
     /**
      * Prefix for all the imported component
@@ -37,5 +37,10 @@ export default defineNuxtConfig({
     classSuffix: '',
     storage: 'localStorage', // or 'sessionStorage' or 'cookie'
     storageKey: 'nuxt-color-mode'
+  },
+  image: {
+    provider: 'ipx',
+    quality: 75,
+    formats: ['webp', 'avif'],
   }
 })
