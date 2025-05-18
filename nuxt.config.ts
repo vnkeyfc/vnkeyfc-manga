@@ -39,7 +39,8 @@ export default defineNuxtConfig({
     storageKey: 'nuxt-color-mode'
   },
   image: {
-    provider: 'ipx',
+    provider: 'netlify',
+    domains: ['vnkeyfc-manga.netlify.app'],
     quality: 75,
     formats: ['webp', 'avif'],
   }
